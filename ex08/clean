@@ -1,1 +1,1 @@
-find /Users/gaykim/* -type f -name "*~" -o "#*" -o "*#" -exex rm {} \;
+find . -type f \( -name '*~' -o -name '#*' -o -name '*#' \) -exec rm {} \;
